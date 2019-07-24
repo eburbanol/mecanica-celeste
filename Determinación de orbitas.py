@@ -124,9 +124,7 @@ def tiempos(t1,t2,t3,alpha1,delta1,rho1,alpha2,delta2,rho2):
     f2 = (x**2)+(y**2)-2*(3.23*x+2.1*y)+14.49
 
     sols = solve((f1, f2), (H, K))
-    
-    
-    
+       
     
     
 tiempos()
